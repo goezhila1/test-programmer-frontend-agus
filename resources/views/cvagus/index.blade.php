@@ -444,7 +444,7 @@
               </h3>
               <p class="subtitle-a">
                 Kumpulan Berita Terkini.
-                <h1 id="demo"></h1>
+                
               </p>
               <div class="line-mf"></div>
             </div>
@@ -456,21 +456,33 @@
                 $.ajax({
                     type: "GET",
                     url : "https://diskominfo.wonosobokab.go.id/api/news",
-                    
-                    data:{data:'data'},
-                    success:function(hasil){    
-                      $.each(hasil, function() {
-                      $.each(this, function(index,value) {
-                        console.log(value);
-                      });
-                    });
+                  
+                    data :{},
+                    success:function(hasil){
+                      document.getElementById("judul1").textContent = hasil['data']['data']['0']['judul_posting'].toLocaleString();
+                      document.getElementById("judul2").textContent = hasil['data']['data']['1']['judul_posting'].toLocaleString();
+                      document.getElementById("judul3").textContent = hasil['data']['data']['2']['judul_posting'].toLocaleString();
+                      //document.getElementById("judul4").textContent = hasil['data']['data']['3']['judul_posting'].toLocaleString();
+                      //document.getElementById("judul5").textContent = hasil['data']['data']['4']['judul_posting'].toLocaleString();
+                      document.getElementById("isi1").textContent = hasil['data']['data']['0']['keterangan'].toLocaleString();
+                      document.getElementById("isi2").textContent = hasil['data']['data']['1']['keterangan'].toLocaleString();
+                      document.getElementById("isi3").textContent = hasil['data']['data']['2']['keterangan'].toLocaleString();
 
-                    //data :{},
-                    //success:function(hasil){
-                    //  document.getElementById("demo").textContent = hasil['data']['data']['0']['id_posting'].toLocaleString();
-                    //  console.log(hasil);
-                    //}
+                      document.getElementById("view1").textContent = hasil['data']['data']['0']['views'].toLocaleString();
+                      document.getElementById("view2").textContent = hasil['data']['data']['1']['views'].toLocaleString();
+                      document.getElementById("view3").textContent = hasil['data']['data']['2']['views'].toLocaleString();
+
+                      document.getElementById("creat1").textContent = hasil['data']['data']['0']['created_at'].toLocaleString().substring(0,10);
+                      document.getElementById("creat2").textContent = hasil['data']['data']['1']['created_at'].toLocaleString().substring(0,10);
+                      document.getElementById("creat3").textContent = hasil['data']['data']['2']['created_at'].toLocaleString().substring(0,10);
+
+                      document.getElementById("id1").textContent = hasil['data']['data']['0']['id_posting'].toLocaleString().substring(0,10);
+                      document.getElementById("id2").textContent = hasil['data']['data']['1']['id_posting'].toLocaleString().substring(0,10);
+                      document.getElementById("id3").textContent = hasil['data']['data']['2']['id_posting'].toLocaleString().substring(0,10);
+                      
+                      console.log(hasil);
                     }
+                    
                     });
 
             </script>
@@ -482,25 +494,22 @@
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Travel</h6>
+                    <h6 class="category" id="id1"></h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
+                <h3 class="card-title"><a href="blog-single.html"><p id="judul1"></p></a></h3>
+                <p class="card-description"><p id="isi1"></p>
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <img src="assets/img/edit.png" alt="" class="avatar rounded-circle">
+                    <span class="author" id="creat1"></span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <span class="bi bi-clock" id="view1" ></span>
                 </div>
               </div>
             </div>
@@ -513,25 +522,23 @@
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Web Design</h6>
+                    <h6 class="category" id="id2"></h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <h3 class="card-title"><a href="blog-single.html"><p id="judul2"></p></a></h3>
                 <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
+                <p id="isi2"></p>
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <img src="assets/img/edit.png" alt="" class="avatar rounded-circle">
+                    <span class="author" id="creat2"></span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <span class="bi bi-clock" id="view2"></span>
                 </div>
               </div>
             </div>
@@ -544,25 +551,23 @@
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Web Design</h6>
+                    <h6 class="category" id="id3">/h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <h3 class="card-title"><a href="blog-single.html"><p id="judul3"></p></a></h3>
                 <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
+                <p id="isi3"></p>
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <img src="assets/img/edit.png" alt="" class="avatar rounded-circle">
+                    <span class="author" id="creat3"></span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <span class="bi bi-clock" id="view3"></span>
                 </div>
               </div>
             </div>
