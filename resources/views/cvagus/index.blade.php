@@ -170,169 +170,7 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Services Section ======= 
-    <section id="services" class="services-mf pt-5 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Services
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Photography</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Graphic Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Marketing Services</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> End Services Section --> 
-
-    <!-- ======= Counter Section ======= 
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container position-relative">
-        <div class="row">
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-check"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-people"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-award"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> End Counter Section -->
+   
 
     <!-- ======= Portfolio Section ======= -->
     <section id="work" class="portfolio-mf sect-pt4 route">
@@ -450,128 +288,27 @@
             </div>
           </div>
         </div>
-        <div class="row">
-        
+        <div class="row" id="listnews">
             <script>
                 $.ajax({
                     type: "GET",
                     url : "https://diskominfo.wonosobokab.go.id/api/news",
-                  
+                    //url : "assets/json/pizza.json",
                     data :{},
                     success:function(hasil){
-                      document.getElementById("judul1").textContent = hasil['data']['data']['0']['judul_posting'].toLocaleString();
-                      document.getElementById("judul2").textContent = hasil['data']['data']['1']['judul_posting'].toLocaleString();
-                      document.getElementById("judul3").textContent = hasil['data']['data']['2']['judul_posting'].toLocaleString();
-                      //document.getElementById("judul4").textContent = hasil['data']['data']['3']['judul_posting'].toLocaleString();
-                      //document.getElementById("judul5").textContent = hasil['data']['data']['4']['judul_posting'].toLocaleString();
-                      document.getElementById("isi1").textContent = hasil['data']['data']['0']['keterangan'].toLocaleString();
-                      document.getElementById("isi2").textContent = hasil['data']['data']['1']['keterangan'].toLocaleString();
-                      document.getElementById("isi3").textContent = hasil['data']['data']['2']['keterangan'].toLocaleString();
-
-                      document.getElementById("view1").textContent = hasil['data']['data']['0']['views'].toLocaleString();
-                      document.getElementById("view2").textContent = hasil['data']['data']['1']['views'].toLocaleString();
-                      document.getElementById("view3").textContent = hasil['data']['data']['2']['views'].toLocaleString();
-
-                      document.getElementById("creat1").textContent = hasil['data']['data']['0']['created_at'].toLocaleString().substring(0,10);
-                      document.getElementById("creat2").textContent = hasil['data']['data']['1']['created_at'].toLocaleString().substring(0,10);
-                      document.getElementById("creat3").textContent = hasil['data']['data']['2']['created_at'].toLocaleString().substring(0,10);
-
-                      document.getElementById("id1").textContent = hasil['data']['data']['0']['id_posting'].toLocaleString().substring(0,10);
-                      document.getElementById("id2").textContent = hasil['data']['data']['1']['id_posting'].toLocaleString().substring(0,10);
-                      document.getElementById("id3").textContent = hasil['data']['data']['2']['id_posting'].toLocaleString().substring(0,10);
-                      
-                      console.log(hasil);
+                      let berita = hasil.data.data;
+                         $.each(berita, function(i, list){       
+                          console.log(list);
+                         // $('#listnews').append('<p>'+ list.id_posting +'</p>');
+                          $('#listnews').append('<div class="col-md-4"><div class="card card-blog"><div class="card-img"><a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a></div><div class="card-body"><div class="card-category-box"><div class="card-category"><h6 class="category" >'+ list.id_posting+'</h6></div></div><h3 class="card-title"><a href="blog-single.html"><p>'+ list.judul_posting+'</p></a></h3><p class="card-description"><p>'+ list.keterangan+'</p></p></div><div class="card-footer"><div class="post-author"><a href="#"><img src="assets/img/edit.png" alt="" class="avatar rounded-circle"><span class="author">'+ list.created_at+'</span></a></div><div class="post-date"><span class="bi bi-clock">'+ list.views+'</span></div></div></div></div>');
+                        });
                     }
-                    
                     });
 
             </script>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category" id="id1"></h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html"><p id="judul1"></p></a></h3>
-                <p class="card-description"><p id="isi1"></p>
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/edit.png" alt="" class="avatar rounded-circle">
-                    <span class="author" id="creat1"></span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock" id="view1" ></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category" id="id2"></h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html"><p id="judul2"></p></a></h3>
-                <p class="card-description">
-                <p id="isi2"></p>
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/edit.png" alt="" class="avatar rounded-circle">
-                    <span class="author" id="creat2"></span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock" id="view2"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category" id="id3">/h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html"><p id="judul3"></p></a></h3>
-                <p class="card-description">
-                <p id="isi3"></p>
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/edit.png" alt="" class="avatar rounded-circle">
-                    <span class="author" id="creat3"></span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock" id="view3"></span>
-                </div>
-              </div>
-            </div>
-          </div>
+          
+          
+          
         </div>
       </div>
     </section><!-- End Blog Section -->
@@ -585,47 +322,7 @@
             <div class="contact-mf">
               <div id="contact" class="box-shadow-full">
                 <div class="row">
-                  <!--<div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send Message Us
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>-->
+                  
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
